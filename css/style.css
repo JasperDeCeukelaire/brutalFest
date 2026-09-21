@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8e4d9;
+    color: #0a0a0a;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    background: #ff3b00;
+    border: 2px solid #0a0a0a;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav a {
+    color: #0a0a0a;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+main {
+    width: 90%;
+    max-width: 65rem;
+    margin: auto;
+}
+
+#line-up {
+    border: 2px solid #0a0a0a;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+#line-up ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+#line-up li {
+    flex: 1 1 100%;
+    padding: 1rem;
+    border: 2px solid #0a0a0a;
+}
+
+.kaart {
+    position: relative;
+    border: 2px solid #0a0a0a;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+.badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #0047ff;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+#tickets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#tickets .kaart {
+    flex: 1;
+}
+
+.informatie {
+    border: 2px solid #0a0a0a;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 8px 8px 0 #0a0a0a;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid #0a0a0a;
+    padding: 1rem;
+}
+
+th {
+    background: #0047ff;
+    color: #fff;
+}
+
+button {
+    background: #ff3b00;
+    border: 2px solid #0a0a0a;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #0047ff;
+    color: #fff;
+}
+
+figure {
+    border: 2px solid #0a0a0a;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+blockquote {
+    background: #ff3b00;
+    border: 2px solid #0a0a0a;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+iframe {
+    width: 100%;
+    border: 2px solid #0a0a0a;
+    margin: 1rem 0;
+}
+
+footer {
+    background: #0a0a0a;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+}
